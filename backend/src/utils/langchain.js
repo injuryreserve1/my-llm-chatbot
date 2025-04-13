@@ -1,8 +1,10 @@
 import { ChatOllama } from '@langchain/ollama'
+import dotenv from 'dotenv'
+dotenv.config()
 
 export async function generateAnswer(question) {
   const llm = new ChatOllama({
-    model: 'deepseek-r1:1.5b',
+    model: process.env.MODEL_NAME,
     temperature: 0,
   })
 
