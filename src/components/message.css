@@ -1,0 +1,18 @@
+.message {
+    color: white;
+    border: none;
+    width: 500px;
+    word-break: keep-all;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+
+.ai {
+    margin-right: auto;
+    background-color: #2b2b28;
+}
+
+.human {
+    margin-left: auto;
+    background-color: #804496;
+}

@@ -1,0 +1,11 @@
+.loader {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+}
