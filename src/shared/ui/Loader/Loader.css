@@ -1,0 +1,7 @@
+.loader {
+  font-size: 30px;
+  color: rgb(57, 16, 56);
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+}

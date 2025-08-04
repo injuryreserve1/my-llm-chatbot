@@ -1,0 +1,33 @@
+.message {
+  max-width: 500px;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin: 10px;
+}
+
+.role {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ai {
+  margin-right: auto;
+  background-color: #b0afbd;
+  color: rgb(0, 0, 0);
+}
+
+.human {
+  margin-left: auto;
+  background-color: #9d55b7;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .ai {
+    margin-left: 0;
+  }
+  .human {
+    margin-right: 0;
+  }
+}

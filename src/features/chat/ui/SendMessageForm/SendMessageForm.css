@@ -1,0 +1,30 @@
+.form {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-textarea {
+  width: 80%;
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid #9d55b7;
+  border-radius: 10px;
+}
+.input-textarea::placeholder {
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.action > button {
+  width: 40px;
+}
