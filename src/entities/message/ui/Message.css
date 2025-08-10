@@ -1,3 +1,21 @@
+.react-markdown {
+  text-indent: 0.5em;
+}
+
+.react-markdown > p + p {
+  padding: 5px 0;
+}
+.react-markdown > ol,
+.react-markdown > ul {
+  padding-left: 0.5em;
+  margin: 0.5em 0;
+}
+
+.react-markdown li {
+  margin-left: 2em;
+  text-indent: 0;
+}
+
 .message {
   max-width: 500px;
   border-radius: 10px;
@@ -13,7 +31,7 @@
 
 .ai {
   margin-right: auto;
-  background-color: #b0afbd;
+  background-color: #d9d9d9;
   color: rgb(0, 0, 0);
 }
 

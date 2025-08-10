@@ -2,6 +2,7 @@
   font-size: calc(1vw + 0.2em);
   box-sizing: border-box;
   scrollbar-color: #804496 #f9f9f9;
+  font-family: 'Manrope', serif;
 }
 
 *,
@@ -27,6 +28,7 @@ input {
   border: none;
   overflow: auto;
   outline: none;
+  font-family: inherit;
 }
 
 button {
@@ -48,8 +50,8 @@ fieldset {
   border: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   :root {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
