@@ -1,4 +1,5 @@
 # 🤖 AI Chat Application
+<img width="1840" height="970" alt="image" src="https://github.com/user-attachments/assets/8a7f5d58-0fbb-4f68-bb8c-82a2db8d65de" />
 
 **React-based chat interface for communicating with LLM**  
 Full-stack application with FSD architecture and MongoDB storage
