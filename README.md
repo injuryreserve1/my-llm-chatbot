@@ -6,7 +6,7 @@ Full-stack application with FSD architecture and MongoDB storage
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React + Vite + + Tanstask query + TS + FSD
+- **Frontend**: React + Vite + Tanstask query + TS + FSD
 - **Backend**: Express + MongoDB
 - **Testing**: Jest
 
